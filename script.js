@@ -16,5 +16,5 @@ function insert_Row() {
 	tr.appendChild(td2);
 
 	
-  tb.insertAdjacentElement('afterbegin',tr);
+  tb.insertBefore(tr, tb.childNodes[0]);
 }
